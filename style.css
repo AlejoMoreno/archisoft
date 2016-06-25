@@ -1,0 +1,93 @@
+body{
+	font-family: sans-serif;
+	font-size: 20px;
+}
+
+#logo{
+	background-color: white;
+	position: relative;
+	width: 100%;
+}
+
+#formulario{
+	position: absolute;
+	left: 10%;
+	width: 80%;
+	background: rgba(51,99,145,1);
+	background: -moz-linear-gradient(left, rgba(51,99,145,1) 0%, rgba(18,67,120,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(51,99,145,1)), color-stop(100%, rgba(18,67,120,1)));
+	background: -webkit-linear-gradient(left, rgba(51,99,145,1) 0%, rgba(18,67,120,1) 100%);
+	background: -o-linear-gradient(left, rgba(51,99,145,1) 0%, rgba(18,67,120,1) 100%);
+	background: -ms-linear-gradient(left, rgba(51,99,145,1) 0%, rgba(18,67,120,1) 100%);
+	background: linear-gradient(to right, rgba(51,99,145,1) 0%, rgba(18,67,120,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#336391', endColorstr='#124378', GradientType=1 );
+	padding-left:  10px;
+	padding-top:  30px;
+	padding-bottom: 30px;
+	top: 30%;
+}
+
+input,select {
+	outline: none;
+    display: block;
+    width: 98%;
+	border: 1px solid #d9d9d9;
+	margin: 10px 10px -20px;
+	padding: 10px 15px 10px 10px;
+	font-size: 20px;
+}
+input:focus,select:focus{
+	border: 2px solid rgba(51,99,145,1);;
+}
+select::selection,select::-moz-selection{
+	background: rgba(51,99,145,1);;
+}
+
+#boton{
+	color: white;
+	background: rgba(51,99,145,1);
+	background: -moz-linear-gradient(left, rgba(51,99,145,1) 0%, rgba(18,67,120,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(51,99,145,1)), color-stop(100%, rgba(18,67,120,1)));
+	background: -webkit-linear-gradient(left, rgba(51,99,145,1) 0%, rgba(18,67,120,1) 100%);
+	background: -o-linear-gradient(left, rgba(51,99,145,1) 0%, rgba(18,67,120,1) 100%);
+	background: -ms-linear-gradient(left, rgba(51,99,145,1) 0%, rgba(18,67,120,1) 100%);
+	background: linear-gradient(to right, rgba(51,99,145,1) 0%, rgba(18,67,120,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#336391', endColorstr='#124378', GradientType=1 );
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+#boton:focus,#boton:hover{
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.1);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.1);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.1);
+}
+
+a{
+	text-decoration: none;
+	color: rgba(51,99,145,1);
+}
+
+p{
+	color: white;
+}
+
+h1{
+	color: white;
+}
+label{
+    color: rgba(51,99,145,1);
+}
+#menusection{
+	position: absolute;
+	width: 80%;
+	top: 4%;
+	left: 20%;
+}
+.info{
+	position: relative;
+	top:-25px;
+	left: 500px;
+	color: rgba(51,99,145,1);
+}
